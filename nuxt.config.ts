@@ -5,11 +5,11 @@ export default defineNuxtConfig({
         // head
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
-            title: '爱盼-网盘资源搜索',
+            title: '盘搜搜-网盘资源搜索',
             meta: [
                 {
                     name: 'description',
-                    content: '爱盼-网盘资源搜索， 一个开源免费的网盘资源搜索程序，仅供学习使用，不支持商业用途。'
+                    content: '盘搜搜-网盘资源搜索， 一个开源免费的网盘资源搜索程序，仅供学习使用，不支持商业用途。'
                 },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
             script: [
                 {
-                    src: 'https://www.googletagmanager.com/gtag/js?id=G-17SPF6S871',
+                    src: 'https://www.googletagmanager.com/gtag/js?id=G-R8852VL17Z',
                     async: true
                 },
                 {
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
                     src: 'https://challenges.cloudflare.com/turnstile/v0/api.js'
                 },
                 {
-                    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8210373406341452',
+                    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3925981084585036',
                     async: true,
                     crossorigin: 'anonymous'
                 }
@@ -137,9 +137,9 @@ export default defineNuxtConfig({
         ]
     },
     site: {
-        name: '爱盼-网盘资源搜索',
-        url: 'https://www.aipan.me',
-        description: '爱盼-网盘资源搜索， 一个开源免费的网盘资源搜索程序，仅供学习使用，不支持商业用途。'
+        name: '盘搜搜-网盘资源搜索',
+        url: 'https://pansou.icloudnative.io',
+        description: '盘搜搜-网盘资源搜索， 一个免费的网盘资源搜索网站，可以搜索夸克网盘、阿里网盘、百度网盘、迅雷网盘等各大网盘的资源。'
     },
     compatibilityDate: '2024-09-12'
 })
