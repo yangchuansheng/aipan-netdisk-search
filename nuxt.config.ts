@@ -55,7 +55,7 @@ export default defineNuxtConfig({
         '@element-plus/nuxt',
         '@nuxtjs/tailwindcss',
         '@nuxtjs/device',
-        '@nuxtjs/i18n',
+        // '@nuxtjs/i18n', // Temporarily disabled
         '@nuxtjs/google-fonts',
         '@nuxtjs/color-mode',
         '@pinia/nuxt',
@@ -88,24 +88,29 @@ export default defineNuxtConfig({
         }
     },
 
-    i18n: {
-        defaultLocale: 'cn',
-        langDir: './assets/lang/',
-        locales: [
-            {
-                code: 'en',
-                name: 'English',
-                language: 'en-US',
-                file: 'en-US.json'
-            },
-            {
-                code: 'cn',
-                name: '中文',
-                language: 'zh-CN',
-                file: 'zh-CN.json'
-            }
-        ],
-    },
+    // i18n configuration temporarily disabled
+    // i18n: {
+    //     defaultLocale: 'cn',
+    //     langDir: './lang',
+    //     locales: [
+    //         {
+    //             code: 'en',
+    //             name: 'English',
+    //             language: 'en-US',
+    //             file: 'en-US.json'
+    //         },
+    //         {
+    //             code: 'cn',
+    //             name: '中文',
+    //             language: 'zh-CN',
+    //             file: 'zh-CN.json'
+    //         }
+    //     ],
+    //     // Disable the optimization directive warning
+    //     bundle: {
+    //         optimizeTranslationDirective: false
+    //     }
+    // },
     plugins: [
 
     ],
